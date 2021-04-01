@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "消息",
+  "disableSwipeBack": true,
+  "backgroundColor": "#F5F5F5",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "i-input": "../../../static/iview/input/index",
+    "i-button": "../../../static/iview/button/index",
+    "i-avatar": "../../../static/iview/avatar/index",
+    "i-row": "../../../static/iview/row/index",
+    "i-col": "../../../static/iview/col/index",
+    "i-icon": "../../../static/iview/icon/index"
+  }
+}

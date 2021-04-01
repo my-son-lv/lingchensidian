@@ -1,0 +1,124 @@
+.content {
+    padding: 40px;
+    background: white;
+    margin-top: 20px;
+}
+
+.t1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+}
+
+.t2 {
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 600;
+    color: #333333;
+}
+
+.t3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 22px;
+    text-indent: 2em;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.check {
+    display: block;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #333333;
+    line-height: 22px;
+    margin-top: 5px;
+    margin-left: 2em;
+}
+
+
+.rt_btn_1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 144px;
+    height: 32px;
+    background: #078CA9;
+    padding: 0;
+    position: absolute;
+    right: 140px;
+    top: 72px;
+}
+
+.rt_btn_2 {
+    width: 70px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 102px;
+    height: 32px;
+    background: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 72px;
+}
+
+.l_btn {
+    width: 88px;
+    height: 32px;
+    background: #078CA9;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.r_btn {
+    width: 74px;
+    height: 32px;
+    background: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.right {
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+    line-height: 17px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+}
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    width: 120px;
+}
+
+table tr td {
+    text-align: center;
+}
+.el_input{
+    width: 150px;
+    
+}

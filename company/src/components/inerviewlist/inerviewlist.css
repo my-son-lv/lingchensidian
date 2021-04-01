@@ -1,0 +1,242 @@
+.header {
+    height: 32px;
+}
+
+.header_btn_s {
+    float: left;
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    background: rgba(7, 140, 169, 1);
+    color: rgba(255, 255, 255, 1);
+    /* margin-right: 20px; */
+}
+
+.header_btn_u {
+    float: left;
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(153, 153, 153, 1);
+    /* margin-right: 20px; */
+}
+
+.pay {
+    width: 170px;
+    float: right;
+    height: 32px;
+}
+
+.details {
+    /* position: absolute;
+    bottom: 0px;
+    top: 136px;
+    left: 240px;
+    right: 0px;
+    padding-right: 20px; */
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.p_t {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+}
+
+.row {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.row_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    float: left;
+    margin-right: 40px;
+}
+
+.t1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+}
+
+.t2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.t3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.s1 {
+    height: 28px;
+    background: rgba(238, 238, 238, 1);
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+}
+
+.c1 {
+    height: 28px;
+    background: rgba(255, 96, 16, 1);
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(7, 140, 169, 1);
+    letter-spacing: 1px;
+    padding: 0;
+    margin-top: 13px;
+    margin-right: 1%;
+    float: right;
+    height: 40px;
+}
+
+.btn_1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(7, 140, 169, 1);
+    letter-spacing: 1px;
+    padding: 0;
+    margin-top: 19px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border: 1px solid rgba(7, 140, 169, 1);
+    border-radius: 4px;
+    float: right;
+}
+
+.row_div:hover {
+    cursor: pointer;
+}
+
+.row_status {
+    background:rgba(238,238,238,1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color:rgba(51,51,51,1);
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    margin-left: 12px;
+}
+
+.row_status_y {
+    background:rgba(196,223,22,0.1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color:rgba(196,223,22,1);
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    margin-left: 12px;
+}
+
+.row_status_b {
+    background:rgba(7,140,169,0.1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color:rgba(7,140,169,1);
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    margin-left: 12px;
+}
+
+.step_row {
+    margin-top: 20px;
+}
+
+.dialog_s {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+}
+
+.dialog_m {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 40px;
+    float: left;
+}
+
+.dialog_t1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.dialog_t2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+.dialog_t3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: left;
+}

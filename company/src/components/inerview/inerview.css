@@ -1,0 +1,396 @@
+.header {
+  height: 32px;
+}
+
+.header_btn_s {
+  float: left;
+  width: 80px;
+  height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  background: rgba(7, 140, 169, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.header_btn_u {
+  float: left;
+  width: 80px;
+  height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(153, 153, 153, 1);
+}
+
+.el_row {
+  margin-top: 20px;
+}
+
+.day_content_s {
+  text-align: center;
+  background: rgba(7, 140, 169, 1);
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding-top: 1px;
+}
+
+.day_content_u {
+  text-align: center;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding-top: 1px;
+}
+
+.day_t_s {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 15%;
+}
+
+.day_t_u {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 15%;
+}
+
+.day_a_s {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.day_a_u {
+  font-size: 10px;
+  color: rgba(204, 204, 204, 1);
+}
+
+.teach_card {
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  padding: 20px 0px 20px 30px;
+  margin-bottom: 20px;
+}
+
+.teach_card_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+
+}
+
+.teach_card_status {
+  float: right;
+  margin-left: 20px;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(7, 140, 169, 1);
+}
+
+.teach_card_time {
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+}
+
+.teach_card_name {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  letter-spacing: 1px;
+
+}
+
+.teach_card_info {
+
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.teach_card_info_2 {
+
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+  width: 200px;
+  line-height: 32px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.teach_card_btn {
+  float: right;
+  margin-right: 40px;
+
+  width: 96px;
+  height: 32px;
+  background: rgba(7, 140, 169, 1);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding: 0;
+}
+
+.details {
+  /* position: absolute;
+  bottom: 0px;
+  top: 136px;
+  left: 240px;
+  right: 0px;
+  padding-right: 20px; */
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.p_t {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+}
+
+.cell {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  padding: 20px 30px 20px 30px;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+.teach_card:hover {
+  cursor: pointer;
+}
+
+.inter_view_end_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+}
+
+.inter_view_end_mask .content {
+  width: 580px;
+  height: 400px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+
+.teacher_messages {
+  padding: 20px 0 0 40px;
+  height: 184px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.teacher_messages img {
+  margin-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.teacher_messages .teacher_name {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  letter-spacing: 1px;
+}
+
+.teacher_messages .country {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+}
+
+.teacher_messages .price {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+}
+
+.btn_wrapper {
+  margin-top: 108px;
+  padding-left: 60px;
+}
+
+.btn_wrapper .btn {
+  margin-right: 20px;
+  float: left;
+  width: 140px;
+  height: 48px;
+  background: rgba(250, 250, 250, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(221, 221, 221, 1);
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.actived {
+  background: rgba(7, 140, 169, 1) !important;
+  color: #FFFFFF !important;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.score_wrapper {
+  padding: 40px;
+  width: 500px;
+  /* height: 441px; */
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+
+.score_wrapper h5 {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+li {
+  list-style: none;
+}
+
+.score_content li {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row;
+  width: 100%;
+}
+
+li .lside_title {
+  width: 90px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  letter-spacing: 1px;
+}
+
+/deep/ .el-rate__text {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  letter-spacing: 1px;
+}
+
+/deep/ .el-rate__icon {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.over_btn {
+  margin: 20px auto;
+  width: 140px;
+  height: 48px;
+  background: rgba(7, 140, 169, 1);
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.disabled_btn {
+  margin: 20px auto;
+  width: 140px;
+  height: 48px;
+  background: #c3c3c3;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tips {
+  width: 100%;
+  font-size: 16px;
+  color: #c3c3c3;
+  text-align: center;
+}
+
+.tips span {
+  color: red;
+}

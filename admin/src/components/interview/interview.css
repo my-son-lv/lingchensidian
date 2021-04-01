@@ -1,0 +1,224 @@
+.content_c {}
+
+.header {
+    height: 32px;
+}
+
+.top_div {
+    margin-top: 17px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.header_btn_s {
+    float: left;
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    background: rgba(7, 140, 169, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.header_btn_u {
+    float: left;
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(153, 153, 153, 1);
+}
+
+.header_img {
+    /* margin-left: 40px; */
+    height: 24px;
+    width: 24px;
+    margin-top: 4px;
+    float: left;
+}
+
+.header_img:hover {
+    cursor: pointer;
+}
+
+.el_row {
+    margin-top: 20px;
+}
+
+.day_content_s {
+    text-align: center;
+    background: rgba(7, 140, 169, 1);
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 1px;
+}
+
+.day_content_u {
+    text-align: center;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 1px;
+}
+
+.day_t_s {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 15%;
+}
+
+.day_t_u {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 15%;
+}
+
+.day_a_s {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.day_a_u {
+    font-size: 10px;
+    color: rgba(204, 204, 204, 1);
+}
+
+.teach_card {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.teach_card_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-top: 20px;
+}
+
+.teach_card_status {
+    margin-top: 20px;
+    margin-right: 40px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(7, 140, 169, 1);
+}
+
+.teach_card_time {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+}
+
+.teach_card_name {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.teach_card_info {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+}
+
+.teach_card_info_2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+    width: 200px;
+    line-height: 32px;
+}
+
+.teach_card_btn {
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 96px;
+    height: 32px;
+    background: rgba(7, 140, 169, 1);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 0;
+}
+
+.teach_card_advier {
+    float: right;
+    margin-top: 20px;
+    height: 32px;
+    background: rgba(248, 248, 248, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.details {
+    margin-top: 20px;
+    padding-right: 20px;
+    height: 667px;
+}
+
+.p_t {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+}
+
+.cell {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+.teach_card_content {
+    text-align: center;
+    background: rgba(248, 248, 248, 1);
+    border-radius: 4px;
+    height: 224px;
+    /* margin-left: 20px;
+    margin-right: 20px */
+}
+
+.list-item {
+    padding-left: 10px;
+}

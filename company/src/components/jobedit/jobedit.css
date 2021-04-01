@@ -1,0 +1,99 @@
+.content {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  padding: 40px 40px 80px 40px;
+}
+
+.btn_back {
+  margin-bottom: 20px;
+}
+
+.t1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  margin: 20px 0px;
+  font-weight: 600;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.form_title {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  float: left;
+  line-height: 40px;
+}
+
+.required {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 96, 16, 1);
+  line-height: 25px;
+  margin-left: 5px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+
+.el_input {
+  width: 80px;
+}
+
+.to {
+  width: 13px;
+  color: #DDDDDD;
+}
+
+.to_text {
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-left: 20px;
+}
+
+.btn {
+  margin-top: 80px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  background: rgba(7, 140, 169, 1);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+/deep/ .ql-toolbar.ql-snow {
+  display: none;
+}
+
+/deep/ .ql-toolbar.ql-snow+.ql-container.ql-snow {
+  border: 1px solid #DCDFE6;
+}
+
+/deep/ .ql-container {
+  min-height: 117px;
+}
+.fuli_tags{
+  display: flex;
+  margin-bottom: 20px;
+}
+.fuli_tags_item{
+  text-align: center;
+  line-height: 40px;
+  background: rgb(170, 169, 169);
+  margin:  0 5px;
+  border-radius: 4px;
+  color: white;
+  padding: 0 20px;
+  cursor: pointer;
+  display: inline;
+}
+.fuli_tags_active{
+  background:  rgba(7, 140, 169, 1);
+}

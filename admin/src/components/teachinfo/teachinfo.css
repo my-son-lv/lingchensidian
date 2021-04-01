@@ -1,0 +1,214 @@
+.menu {
+  margin-left: 14px;
+  width: 98%;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menu_btn {
+  width: 152px;
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.sub_menu {
+  height: 80px;
+  background: rgba(248, 248, 248, 1);
+  border-radius: 10px;
+}
+
+.sub_menu_name {
+  float: left;
+  margin-left: 5%;
+  margin-top: 40px;
+  transform: translateY(-50%);
+  width: 40%;
+  overflow: hidden;
+  /*超出的部分隐藏起来。*/
+  white-space: nowrap;
+  /*不显示的地方用省略号...代替*/
+  text-overflow: ellipsis;
+  /* 支持 IE */
+}
+
+.submenu_btn_l {
+  float: right;
+  width: 60px;
+  /* height: 32px; */
+  background: rgba(7, 140, 169, 1);
+  border: 1px solid rgba(221, 221, 221, 1);
+  margin-right: 5%;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 40px;
+  transform: translateY(-50%);
+}
+
+.submenu_btn_r {
+  float: right;
+  width: 60px;
+  /* height: 32px; */
+  background: rgba(250, 250, 250, 1);
+  border: 1px solid rgba(221, 221, 221, 1);
+  margin-right: 5%;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 40px;
+  transform: translateY(-50%);
+}
+
+.info_list_content {
+  width: 100%;
+}
+
+.info_list {
+  margin: 20px;
+  margin-left: 15px;
+  margin-right: 1%;
+  border-radius: 10px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  min-height: 188px;
+  background: white;
+}
+
+.info_list_2 {
+  margin: 20px;
+  margin-left: 15px;
+  margin-right: 1%;
+  border-radius: 10px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  padding-top: 20px;
+  padding-bottom: 58px;
+  background-color: white;
+}
+
+.margin-l {
+  margin-left: 10%;
+}
+
+.margin-lr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.t1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 40px;
+}
+
+.t2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-top: 20px;
+}
+
+.st1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+}
+
+.st2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+
+.st3 {
+  font-size: 16px;
+
+  color: rgb(7, 140, 169);
+  cursor: pointer;
+}
+
+.row1 {
+  margin-top: 20px;
+  height: 22px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.el_row {
+  margin-top: 20px;
+}
+
+.edit_btn_wrapper {
+  width: 70px;
+  height: 64px;
+  background: rgba(7, 140, 169, 1);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.add_btn {
+  float: right;
+  margin-right: 64px;
+  background: rgba(7, 140, 169, 1);
+  color: #fff;
+}
+
+.notes_wrapper {
+  margin: 15px 0;
+}
+
+.add_notes_btn {
+  background: rgba(7, 140, 169, 1);
+  color: #fff;
+}
+
+.upload_tips {
+  margin-left: 15px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 40px;
+}
+
+.education {
+  position: relative;
+  margin: 30px 0;
+}
+
+.education_title {
+  top: 0;
+  left: 0;
+
+  height: 30px;
+}
+
+.education_wrapper .item {
+  margin-bottom: 20px;
+}
+
+.all_cert_img {
+  margin-top: 20px;
+  width: 261px;
+  height: 196px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+html, 
+body,
+#app {
+    height: 100%;
+    min-width: 1024px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mt_80 {
+    margin-top: 80px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+.ct {
+    text-align: center;
+}

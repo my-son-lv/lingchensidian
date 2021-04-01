@@ -1,0 +1,110 @@
+.content_c {}
+
+.top_div {
+    margin-top: 17px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.t1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    float: left;
+    line-height: 40px;
+}
+
+.i1 {
+    border-radius: 2px;
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+}
+
+.b1 {
+    background: rgba(7, 140, 169, 1);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.b2 {
+    margin-left: 10px;
+    background: rgba(250, 250, 250, 1);
+    border: 1px solid rgba(221, 221, 221, 1);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+.btn_2 {
+    color: rgba(7, 140, 169, 1);
+    height: 36px;
+}   
+
+.pagination_div {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    background: white;
+    height: 52px;
+}
+
+/deep/ .pagination_div .el-pagination .btn-prev {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+/deep/ .pagination_div .el-pagination .btn-next {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+/deep/ .pagination_div .el-pagination .el-icon {
+    font-size: 14px;
+    color: rgba(102, 102, 102, 1);
+    padding: 0;
+    text-align: center;
+}
+
+/deep/ .pagination_div .el-pagination .more {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+/deep/ .pagination_div .el-pagination .el-pager .number {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+
+/deep/ .pagination_div .el-pagination .el-pager .number:not(.disabled).active {
+    background-color: rgba(7, 140, 169, 1);
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 8px;
+    font-size: 14px;
+    line-height: 32px;
+}

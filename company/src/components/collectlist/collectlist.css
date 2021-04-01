@@ -1,0 +1,165 @@
+.header {
+    height: 32px;
+}
+
+.header_btn_s {
+    float: left;
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    background: rgba(7, 140, 169, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.header_btn_u {
+    float: left;
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(153, 153, 153, 1);
+}
+
+.pay {
+    width: 170px;
+    float: right;
+    height: 32px;
+}
+
+.s1 {
+    float: left;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.select_pay {
+    width: 120px;
+    float: right;
+    height: 32px;
+}
+
+.nationality {
+    float: right;
+    margin-right: 40px;
+    width: 310px;
+    text-align: center;
+}
+
+.details {
+    /* position: absolute;
+    bottom: 0px;
+    top: 136px;
+    left: 240px;
+    right: 0px;
+    padding-right: 20px; */
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.cell {
+    /* height: 234px; */
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    padding: 20px 30px 20px 30px;
+}
+
+.user_head {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.user_name {
+    margin-top: 20px;
+    line-height: 60px;
+    /* width: 200px; */
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user_info {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user_bottom {
+    margin-top: 18px;
+    height: 32px;
+}
+
+.user_bottom .left {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background: rgba(248, 248, 248, 1);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.user_bottom .right {
+    float: right;
+    width: 80px;
+    height: 32px;
+    background: rgba(7, 140, 169, 1);
+    border-radius: 4px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.p_t {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    letter-spacing: 1px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .clearfix {
+    zoom: 1;
+  }
+  
+  .fl {
+    float: left;
+  }
+  
+  .fr {
+    float: right;
+  }

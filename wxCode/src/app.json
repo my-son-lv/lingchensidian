@@ -1,0 +1,143 @@
+{
+    "pages": [
+        "pages/wxExamine/main",
+        "pages/index/main",
+        "pages/login/main",
+        "pages/interviewManagement/main",
+        "pages/personalCenter/main",
+        "pages/wxTim/imIndex/main"
+    ],
+    "subPackages": [
+    {
+        "root": "pages/web/",
+        "pages": ["main"]
+    },{
+        "root": "pages/accountSettings/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/companyLogo/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/modifyAccount/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/activeAccount/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/accountOver/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/companyDesc/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/teacherShare/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/register/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/changePassword/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/alternativeTeacher/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/residenceApplication/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/waitingForReview/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/findingsOfAudit/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/teachersDetail/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/createPosition/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/editPosition/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/positionManager/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/interviewRoom/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/wxTim/chat/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/activityDetail/",
+        "pages": ["main"]
+    }, {
+        "root": "pages/vipCenter/",
+        "pages": ["main"]
+    },{
+        "root": "pages/vipDetailed/",
+        "pages": ["main"]
+    },{
+        "root": "pages/downloadResume/",
+        "pages": ["main"]
+    },{
+        "root": "pages/dropBox/",
+        "pages": ["main"]
+    },{
+        "root": "pages/platformData/",
+        "pages": ["main"]
+    },{
+        "root": "pages/wxTim/setMessages",
+        "pages": ["main"]
+    }],
+    "usingComponents": {
+        "van-notify": "static/vant/notify/index",
+        "van-checkbox": "static/vant/checkbox/index",
+        "van-checkbox-group": "static/vant/checkbox-group/index",
+        "van-search": "static/vant/search/index",
+        "van-toast": "static/vant/toast/index",
+        "van-uploader": "static/vant/uploader/index",
+        "van-icon": "static/vant/icon/index",
+        "van-popup": "static/vant/popup/index",
+        "van-picker": "static/vant/picker/index",
+        "van-transition": "static/vant/transition/index",
+        "van-datetime-picker": "static/vant/datetime-picker/index",
+        "van-steps": "static/vant/steps/index",
+        "van-dialog": "static/vant/dialog/index",
+        "van-notice-bar": "static/vant/notice-bar/index"
+    },
+    "tabBar": {
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "selectedColor": "#078CA9",
+        "color": "#CCCCCC",
+        "list": [{
+                "pagePath": "pages/index/main",
+                "iconPath": "/static/images/teachers_icon.png",
+                "selectedIconPath": "/static/images/active_teacher_icon.png",
+                "text": "发现外教"
+            },
+            {
+                "pagePath": "pages/interviewManagement/main",
+                "iconPath": "/static/images/interview_icon.png",
+                "selectedIconPath": "/static/images/active_interview_icon.png",
+                "text": "面试"
+            },
+            {
+                "pagePath": "pages/wxTim/imIndex/main",
+                "iconPath": "/static/images/message_icon.png",
+                "selectedIconPath": "/static/images/activeMsg_icon.png",
+                "text": "消息"
+            },
+            {
+                "pagePath": "pages/personalCenter/main",
+                "iconPath": "/static/images/personal_icon.png",
+                "selectedIconPath": "/static/images/active_personal_icon.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "window": {
+        "navigationBarBackgroundColor": "#fff"
+    }
+}
